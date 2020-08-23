@@ -4,22 +4,51 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float ballSpeed = 10.0f;
+    public float forwardAccel;
+    public float reverseAccel;
+    public float maxSpeed;
+    public float turnStrength;
+
+    private float speedInput;
+    private float turnInput;
+
     private Vector3 moveInput;
+
     public Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
-      //  rb = GetComponent<Rigidbody>();
+        rb.transform.parent = null;
     }
 
     // Update is called once per frame
     void Update()
     {
-        moveInput.x = Input.GetAxisRaw("Horizontal");
-        moveInput.y = Input.GetAxisRaw("Vertical");
+        speedInput = 0f;
 
-        rb.velocity = moveInput * ballSpeed;
+        if (Input.GetAxis("Vertical") > 0)
+        {
+            speedInput = Input.GetAxis("Vertical") * forwardAccel * 1000f;
+        }
+        else
+        {
+            speedInput = Input.GetAxis("Vertical") * reverseAccel * 1000f;
+        }
+
+        turnInput = Input.GetAxis("Horizontal");
+
+
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0f, turnInput * turnStrength * Time.deltaTime, 0f));
+
+        transform.position = rb.transform.position;
+    }
+
+    private void FixedUpdate()
+    {
+        if (Mathf.Abs(speedInput) > 0)
+        {
+            rb.AddForce(transform.forward * speedInput);
+        }
     }
 }
