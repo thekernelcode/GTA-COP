@@ -58,7 +58,7 @@ public class CarController : MonoBehaviour
         if (isGrounded)
         {
             Debug.Log(sphereRB.velocity.magnitude);
-            if (sphereRB.velocity.magnitude > 5)
+            if (sphereRB.velocity.magnitude > 2)
             {
                 transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0f, turnInput * turnStrength * Time.deltaTime, 0f));
             }
