@@ -24,33 +24,14 @@
       "link": "board-1-F4A49.psd"
     },
     {
-      "uid": "OWER2",
-      "url": "board-2-OWER2.png",
+      "uid": "WD4F6",
+      "url": "board-2-WD4F6.png",
       "newShot": false,
-      "lastEdited": 1609925689998,
+      "lastEdited": 1609938053405,
       "layers": {
         "reference": {
-          "url": "board-2-OWER2-reference.png",
-          "opacity": 0.75
-        },
-        "shot-generator": {
-          "url": "board-2-OWER2-shot-generator.png",
-          "opacity": 0.75
-        },
-        "fill": {
-          "url": "board-2-OWER2-fill.png"
-        },
-        "tone": {
-          "url": "board-2-OWER2-tone.png"
-        },
-        "pencil": {
-          "url": "board-2-OWER2-pencil.png"
-        },
-        "ink": {
-          "url": "board-2-OWER2-ink.png"
-        },
-        "notes": {
-          "url": "board-2-OWER2-notes.png"
+          "url": "board-2-WD4F6-reference.png",
+          "opacity": 1
         }
       },
       "number": 2,
@@ -58,48 +39,29 @@
       "time": 2000,
       "lineMileage": 10543.21174625382,
       "dialogue": "Not guilt your honour!",
-      "duration": "3000",
-      "action": "Suspect looks at cop and smiles",
+      "action": "Voice comes from Jury, spectators gasp\n",
+      "link": "board-2-WD4F6.psd",
       "audio": null,
       "notes": ""
     },
     {
-      "uid": "1PMJZ",
-      "url": "board-3-1PMJZ.png",
+      "uid": "50PBT",
+      "url": "board-3-50PBT.png",
       "newShot": false,
-      "lastEdited": 1609925752062,
+      "lastEdited": 1609938120008,
       "layers": {
         "reference": {
-          "url": "board-3-1PMJZ-reference.png",
-          "opacity": 0.75
-        },
-        "shot-generator": {
-          "url": "board-3-1PMJZ-shot-generator.png",
-          "opacity": 0.75
-        },
-        "fill": {
-          "url": "board-3-1PMJZ-fill.png"
-        },
-        "tone": {
-          "url": "board-3-1PMJZ-tone.png"
-        },
-        "pencil": {
-          "url": "board-3-1PMJZ-pencil.png"
-        },
-        "ink": {
-          "url": "board-3-1PMJZ-ink.png"
-        },
-        "notes": {
-          "url": "board-3-1PMJZ-notes.png"
+          "url": "board-3-50PBT-reference.png",
+          "opacity": 1
         }
       },
       "number": 3,
       "shot": "1C",
-      "time": 5000,
-      "lineMileage": 15456.98649804162,
-      "dialogue": "Not guilt your honour!",
-      "duration": "2000",
+      "time": 4000,
+      "lineMileage": 10543.21174625382,
+      "dialogue": "",
       "action": "Suspect looks at cop and smiles",
+      "link": "board-3-50PBT.psd",
       "audio": null,
       "notes": ""
     },
@@ -109,66 +71,54 @@
       "newShot": false,
       "lastEdited": 1609925891724,
       "layers": {
-        "pencil": {
-          "url": "board-4-U8SO0-pencil.png"
-        },
-        "ink": {
-          "url": "board-4-U8SO0-ink.png"
-        },
-        "notes": {
-          "url": "board-4-U8SO0-notes.png"
+        "reference": {
+          "url": "board-4-U8SO0-reference.png",
+          "opacity": 1
         }
       },
       "shot": "1D",
       "number": 4,
-      "time": 7000,
-      "lineMileage": 8901.001386801981
+      "time": 6000,
+      "lineMileage": 8901.001386801981,
+      "link": "board-4-U8SO0.psd"
     },
     {
-      "uid": "5UZGZ",
-      "url": "board-5-5UZGZ.png",
+      "uid": "EK7BM",
+      "url": "board-5-EK7BM.png",
       "newShot": false,
-      "lastEdited": 1609925996686,
+      "lastEdited": 1609941925643,
       "layers": {
-        "pencil": {
-          "url": "board-5-5UZGZ-pencil.png"
-        },
-        "ink": {
-          "url": "board-5-5UZGZ-ink.png"
-        },
-        "notes": {
-          "url": "board-5-5UZGZ-notes.png"
+        "reference": {
+          "url": "board-5-EK7BM-reference.png",
+          "opacity": 1
         }
       },
       "shot": "1E",
       "number": 5,
-      "time": 9000,
-      "lineMileage": 12537.092451284076,
+      "time": 8000,
+      "lineMileage": 8901.001386801981,
+      "link": "board-5-EK7BM.psd",
       "audio": null,
       "dialogue": "",
       "action": "",
       "notes": ""
     },
     {
-      "uid": "UFONK",
-      "url": "board-6-UFONK.png",
+      "uid": "17XQT",
+      "url": "board-6-17XQT.png",
       "newShot": false,
-      "lastEdited": 1609926037158,
+      "lastEdited": 1609942082284,
       "layers": {
-        "pencil": {
-          "url": "board-6-UFONK-pencil.png"
-        },
-        "ink": {
-          "url": "board-6-UFONK-ink.png"
-        },
-        "notes": {
-          "url": "board-6-UFONK-notes.png"
+        "reference": {
+          "url": "board-6-17XQT-reference.png",
+          "opacity": 1
         }
       },
       "shot": "1F",
       "number": 6,
-      "time": 11000,
-      "lineMileage": 21675.173361069403,
+      "time": 10000,
+      "lineMileage": 8901.001386801981,
+      "link": "board-6-17XQT.psd",
       "audio": null,
       "dialogue": "",
       "action": "",
@@ -187,7 +137,7 @@
       },
       "shot": "1G",
       "number": 7,
-      "time": 13000,
+      "time": 12000,
       "lineMileage": 10045.003814058104,
       "link": "board-7-UXYZS.psd"
     }
