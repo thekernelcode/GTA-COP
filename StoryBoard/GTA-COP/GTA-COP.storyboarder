@@ -12,26 +12,7 @@
       "layers": {
         "reference": {
           "url": "board-1-F4A49-reference.png",
-          "opacity": 0.75
-        },
-        "shot-generator": {
-          "url": "board-1-F4A49-shot-generator.png",
-          "opacity": 0.75
-        },
-        "fill": {
-          "url": "board-1-F4A49-fill.png"
-        },
-        "tone": {
-          "url": "board-1-F4A49-tone.png"
-        },
-        "pencil": {
-          "url": "board-1-F4A49-pencil.png"
-        },
-        "ink": {
-          "url": "board-1-F4A49-ink.png"
-        },
-        "notes": {
-          "url": "board-1-F4A49-notes.png"
+          "opacity": 1
         }
       },
       "number": 1,
@@ -39,7 +20,8 @@
       "time": 0,
       "lineMileage": 10543.21174625382,
       "dialogue": "How does the jury find the suspect?",
-      "action": "Judge turns to jury"
+      "action": "Judge turns to jury",
+      "link": "board-1-F4A49.psd"
     },
     {
       "uid": "OWER2",
