@@ -1,0 +1,174 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32722 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programs\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityRepos/GTA-COP/GTA-COP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65390
+Successfully changed project path to: D:/UnityRepos/GTA-COP/GTA-COP
+D:/UnityRepos/GTA-COP/GTA-COP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/Programs/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityRepos/GTA-COP/GTA-COP/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Programs/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programs/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programs/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003865 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 24.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 3.215100 ms (FindLiveObjects: 0.298600 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.592800 ms  DeleteObjects: 0.236000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Meshes/Courthouse Exterior.blend
+  artifactKey: Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend using Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4229603c064b3eae3cc9e210366d90') in 0.388847 seconds
+  Import took 0.391304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008862 seconds.
+  path: Assets/Meshes/Courthouse Exterior.fbx
+  artifactKey: Guid(8a8466180cd1ba7449920097d1f55691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.fbx using Guid(8a8466180cd1ba7449920097d1f55691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e20e1c8c0ce8de6798cf0bf1066042') in 0.037905 seconds
+  Import took 0.040297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Meshes/Courthouse Exterior.blend
+  artifactKey: Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend using Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4229603c064b3eae3cc9e210366d90') in 0.033349 seconds
+  Import took 0.035714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Meshes/Courthouse Exterior.fbx
+  artifactKey: Guid(8a8466180cd1ba7449920097d1f55691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.fbx using Guid(8a8466180cd1ba7449920097d1f55691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e20e1c8c0ce8de6798cf0bf1066042') in 0.030011 seconds
+  Import took 0.031971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.960575 seconds.
+  path: Assets/Meshes/Courthouse Exterior.blend1
+  artifactKey: Guid(72920d56fbac63944b11393a5987c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend1 using Guid(72920d56fbac63944b11393a5987c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b7743ca2e377a763d89d1731d01da2') in 0.004609 seconds
+  Import took 0.006954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.570438 seconds.
+  path: Assets/Meshes/Courthouse Exterior.blend
+  artifactKey: Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend using Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d739375432b0c59285c85821cdd1dd') in 0.029624 seconds
+  Import took 0.031727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.844255 seconds.
+  path: Assets/Meshes/Courthouse Exterior.blend
+  artifactKey: Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend using Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59092c4ded36e882f3917ee65d63b02') in 0.032866 seconds
+  Import took 0.035346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.542179 seconds.
+  path: Assets/Meshes/Courthouse Exterior.blend
+  artifactKey: Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend using Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afff43880dc9dfe659d503f29a57282') in 0.027622 seconds
+  Import took 0.030096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.843651 seconds.
+  path: Assets/Meshes/Courthouse Exterior.blend
+  artifactKey: Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Courthouse Exterior.blend using Guid(91eb188b65479234a84c81f0534b4bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9af42e9a925ac00e9fbabbc246436c') in 0.027038 seconds
+  Import took 0.029024 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 1.492200 ms (FindLiveObjects: 0.121900 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.234900 ms  DeleteObjects: 0.096400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
